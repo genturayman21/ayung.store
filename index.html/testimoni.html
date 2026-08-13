@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Testimoni & Peraturan - AYUNG STORE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="logo/logo.jpeg" class="profile" alt="AYUNG STORE">
+
+        <h1>AYUNG STORE</h1>
+
+        <p>TESTIMONI & PERATURAN JUAL BELI</p>
+
+
+        <h2>📸 Testimoni Pembeli</h2>
+
+    <div class="testimoni-container">
+
+         <img src="testimoni/1.jpeg"
+         alt="Testimoni 1"
+         onclick="openImage(this.src)">
+
+        <img src="testimoni/2.jpeg"
+         alt="Testimoni 2"
+         onclick="openImage(this.src)">
+
+        <img src="testimoni/3.jpeg"
+         alt="Testimoni 3"
+         onclick="openImage(this.src)">
+
+        <img src="testimoni/4.jpeg"
+         alt="Testimoni 4"
+         onclick="openImage(this.src)">
+
+    </div>
+
+
+        <h2>📋 Peraturan Jual Beli</h2>
+
+        <div class="aturan">
+
+            <p>1. Pastikan akun yang ingin dibeli sudah sesuai dengan deskripsi.</p>
+
+            <p>2. Transaksi dilakukan menggunakan jasa admin rekber sebagai pihak ketiga.</p>
+
+            <p>3. Pembeli mengirimkan pembayaran kepada admin rekber, bukan langsung kepada penjual.</p>
+
+            <p>4. Setelah pembayaran dikonfirmasi oleh admin rekber, penjual memberikan informasi akun kepada pembeli.</p>
+
+            <p>5. Pembeli wajibmelakukan pengecekan terhadap akun yang diterima dan memastikan akun sesuai dengan kesepakatan.</p>
+
+            <p>6.  Setelah pembeli menyatakan transaksi selesai dan tidak ada masalah, admin rekber meneruskan dana kepada penjual.</p>
+
+            <p>7. Segala bentuk kesalahan akibat kelalaian pembeli menjadi tanggung jawab pembeli.</p>
+
+            <p>8. Jika mengalami masalah setelah transaksi, segera hubungi admin.</p>
+
+        </div>
+
+    <h2>🤝 Admin Rekber Terpercaya</h2>
+
+<div class="rekber">
+
+    <img src="testimoni/admin rekber.jpeg"
+         alt="Admin Rekber"
+         onclick="openImage(this.src)">
+
+</div>
+
+
+<div class="peringatan">
+
+    <div class="peringatan">
+    ⚠️ <strong>PENTING</strong><br>
+    Pastikan menggunakan jasa rekber yang telah disepakati bersama.
+    Jangan melakukan pembayaran di luar prosedur transaksi yang telah ditentukan.
+    </div>
+
+
+     <a href="index.html" class="social-button">
+            <span>⬅️</span>
+            <span>Kembali ke Halaman Utama</span>
+    </a>
+
+
+</div>
+
+<div id="imageModal" class="image-modal" onclick="closeImage()">
+
+    <span class="close">&times;</span>
+
+    <img id="modalImage" class="modal-image">
+
+</div>
+
+<script>
+
+function openImage(src) {
+    document.getElementById("imageModal").style.display = "flex";
+    document.getElementById("modalImage").src = src;
+}
+
+function closeImage() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
