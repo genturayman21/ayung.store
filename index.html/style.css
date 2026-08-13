@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("logo/bg.jpeg");
+    background-size: 100% 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    color:#ffffff
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    margin: 12px 0;
+    background: white;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    transform: scale(1.02);
+}
+
+.social-button img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.testimoni-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.testimoni-container img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.aturan {
+    background: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.aturan p {
+    color: black;
+    margin: 12px 0;
+}
+
+.rekber {
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.rekber img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.peringatan {
+    background: #fff3cd;
+    color: #ff0000;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
